@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Read More / Read Less</title>
+    <style>
+        div{
+            width: 400px;
+            font-family: 'calibri';
+            margin: 200px auto;
+        }
+        h3{
+            margin-top: 10px;
+            width: 100px;
+            padding: 10px;
+            border: none;
+            background: deepskyblue;
+            border-radius: 5px;
+            color: white;
+        }
+        #more{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <div>
+            <h1>Read More</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                Odio iste repudiandae at corrupti harum dignissimos veritatis est <span id="dots">....</span>  <span id="more">
+                impedit expedita, facilis doloribus, 
+                similique omnis molestias, beatae consequuntur repellat dolores illo alias.</span> </p>
+            <h3 onclick="myFunction()" id="myBtn">Read More</h3>
+        </div>
+    </center>
+    <script src="app.js"></script>
+</body>
+</html>
